@@ -1,5 +1,9 @@
 #!/bin/bash -e
 
+#
+# CI for GitHub Pages using CircleCI
+#
+
 # Exit on Error
 set -e
 
@@ -8,19 +12,9 @@ DIST_FOLDER=site
 REMOTE_GIT_REPO=git@github.com:wikiespirita/wikiespirita-site.git
 LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
-# Prepare the environment
-#git worktree add site gh-pages
-#git worktree add $DIST_FOLDER gh-pages
-
-# Save the '.git' file
-#mv ./$DIST_FOLDER/.git .git-$DIST_FOLDER
-
-# Remove worktree folder
-#rm -rf ./$DIST_FOLDER
-
 # Build Application
-#yarn run --silent build
-npm run build
+yarn run --silent build
+#npm run build
 
 if [ "$(git status --porcelain | wc -l | xargs)" -eq 0 ]; then
   echo "Nenhuma modificação identificada..."
@@ -39,10 +33,4 @@ git add -A
 git commit -m "[$LAST_COMMIT_MESSAGE] Deploy by CI"
 git checkout -b gh-pages
 
-#git push -f --set-upstream $(git config --get remote.origin.url) gh-pages
-#git push -f $(git config --get remote.origin.url) gh-pages
-#git push -f --set-upstream $(git config --get remote.origin.url) gh-pages:gh-pages
 git push -f $REMOTE_GIT_REPO gh-pages:gh-pages
-#git push -f $(git config --get remote.origin.url) gh-pages:gh-pages
-#git push -f $(git config --get remote.origin.url) master:master
-#git push -f git@github.com:wikiespirita/wikiespirita.github.io.git master
