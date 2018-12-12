@@ -8,7 +8,11 @@ DIST_FOLDER=site
 # Save the Commit Message
 LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
+apt-get update
+apt-get install git -y
+
 # Prepare the environment
+git worktree add site gh-pages
 git worktree add $DIST_FOLDER gh-pages
 
 # Save the '.git' file
