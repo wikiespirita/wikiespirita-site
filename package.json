@@ -1,0 +1,14 @@
+{
+  "name": "WikiEspirita",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  },
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+    //"deploy": "echo 'wikiespirita.com.br' > ./site/CNAME && git subtree push --prefix site origin gh-pages"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
