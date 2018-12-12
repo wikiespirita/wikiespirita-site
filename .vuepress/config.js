@@ -43,18 +43,19 @@ module.exports = {
         transformer: (timestamp, lang) => {
           const moment = require('moment')
           moment.locale(lang)
-          return moment(timestamp).fromNow()
-          // return moment(timestamp).format('DD/MM/YYYY')
+          // return moment(timestamp).fromNow()
+          return moment(timestamp).format('DD/MM/YYYY')
         }
       }
     ]
   ],
   head: [
     ['link', { rel: 'icon', href: '/imagens/logo/favicon-32x32.png' }],
-    ['meta', { property: 'og:url', content: '//wikiespirita.com.br'}],
+    ['meta', { property: 'og:url', content: 'https://wikiespirita.com.br'}],
     ['meta', { property: 'og:title', content: 'WikiEspírita'}],
     ['meta', { property: 'og:description', content: 'Generalidade e Concordância no estudo do Espiritismo'}],
-    ['meta', { property: 'og:image', content: '//wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_80.png'}],
+    ['meta', { property: 'og:image', content: 'https://wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_80.png'}],
+    ['meta', { property: 'og:image:secure_url', content: 'https://wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_80.png'}],
     ['meta', { property: 'og:type', content: 'article'}],
     ['meta', { property: 'og:locale', content: 'pt_BR'}],
     ['meta', { property: 'og:locale:alternative', content: 'en_US'}]
