@@ -18,6 +18,6 @@ git init
 git add -A
 git commit -m "[ci skip] Deploy by CI"
 
-git push -f $(git config --get remote.origin.url) gh-pages
+git push -f $(git config --get remote.origin.url) gh-pages:gh-pages
 #git push -f $(git config --get remote.origin.url) master:master
 #git push -f git@github.com:wikiespirita/wikiespirita.github.io.git master
