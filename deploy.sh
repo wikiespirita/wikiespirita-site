@@ -12,6 +12,7 @@ apt-get update
 apt-get install git -y
 apt-get install git-core -y
 git --version
+apt-get upgrade git -y
 
 # Prepare the environment
 git worktree add site gh-pages
