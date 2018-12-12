@@ -3,11 +3,10 @@
 # Exit on Error
 set -e
 
-# Local Variables
-local DIST_FOLDER=site
-
+# Variables
+DIST_FOLDER=site
 # Save the Commit Message
-local LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
 # Prepare the environment
 git worktree add $DIST_FOLDER gh-pages
