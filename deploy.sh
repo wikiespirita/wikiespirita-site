@@ -14,6 +14,7 @@ LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
 # Build Application
 yarn run --silent build
+yarn update
 #npm run build
 
 if [ "$(git status --porcelain | wc -l | xargs)" -eq 0 ]; then
