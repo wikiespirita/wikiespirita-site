@@ -15,10 +15,9 @@ jobs:
     steps:
       - checkout
 
-#      - add_ssh_keys:
-#          fingerprints:
-#            - "32:ce:f6:c9:dc:51:55:8b:8b:8b:e1:c1:43:75:f0:54"
-#            - "fc:f9:33:58:df:b0:90:d5:0c:0e:71:53:d0:26:de:0a"
+      - add_ssh_keys:
+          fingerprints:
+            - "4b:eb:a0:80:e2:1a:19:d6:97:b0:88:dd:53:16:ce:35"
 
       #### Node dependencies ####
       - restore_cache:
