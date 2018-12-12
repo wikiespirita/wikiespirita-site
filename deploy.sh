@@ -27,6 +27,7 @@ if [ "$(git status --porcelain | wc -l | xargs)" -eq 0 ]; then
   exit 0
 fi
 
+cp -R .circleci $DIST_FOLDER
 cd $DIST_FOLDER
 echo 'wikiespirita.com.br' > CNAME
 
