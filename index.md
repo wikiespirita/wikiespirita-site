@@ -12,7 +12,7 @@ features:
 - title: "Sugestões de Temas"
   details: "Você também pode sugerir temas para um estudo aprofundado de nossa equipe para posterior divulgação no site."
 - title: "Ciência"
-  details: "As contribuições do Espiritismo à Ciência: fluido universal, lei de atração, unicidade da matéria, via em outros plantes, temas os quais as comprovações atuais da Ciência coadunam com os ensinamentos dos espíritos."
+  details: "As contribuições do Espiritismo para a Ciência são inestimáveis, temas como: evolução das espécies, fluido universal, lei de atração, unicidade da matéria, vida em outros plantes etc, foram trazidos pelos espíritos em 1857, quando do lançamento da primeira edição de O Livro dos Espíritos."
 - title: "Filosofia"
   details: "Como especialidade, O Livro dos Espíritos contém a doutrina espírita; como generalidade, prende-se à doutrina espiritualista. Filosofia está que desperta o conhecimento dentro de cada ser tornando-o melhor para o mundo"
 - title: "Religião"

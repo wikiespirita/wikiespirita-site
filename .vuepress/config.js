@@ -47,7 +47,8 @@ module.exports = {
           return moment(timestamp).format('DD/MM/YYYY')
         }
       }
-    ]
+    ],
+    ['@vuepress/back-to-top']
   ],
   head: [
     ['link', { rel: 'icon', href: '/imagens/logo/favicon-32x32.png' }],
