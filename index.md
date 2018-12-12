@@ -17,7 +17,7 @@ features:
   details: "Como especialidade, O Livro dos Espíritos contém a doutrina espírita; como generalidade, prende-se à doutrina espiritualista. Filosofia está que desperta o conhecimento dentro de cada ser tornando-o melhor para o mundo"
 - title: "Religião"
   details: "Fé inabalável é somente aquela que pode encarar a razão face a face, em qualquer época da Humanidade"
-footer: "Informações de Domínio Público | Copyright © 2018 WikiEspírita"
+footer: "CC-BY-4.0 | Copyright © 2018 WikiEspírita"
 ---
 
 ::: danger Em Desenvolvimento
