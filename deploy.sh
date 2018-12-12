@@ -35,7 +35,7 @@ git config --global user.email "<>"
 git init
 git add -A
 git commit -m "[$LAST_COMMIT_MESSAGE] Deploy by CI"
-git checkoug -b gh-pages
+git checkout -b gh-pages
 
 git push -f $(git config --get remote.origin.url) gh-pages:gh-pages
 #git push -f $(git config --get remote.origin.url) master:master
