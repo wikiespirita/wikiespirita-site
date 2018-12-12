@@ -13,8 +13,8 @@ REMOTE_GIT_REPO=git@github.com:wikiespirita/wikiespirita-site.git
 LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
 # Build Application
+yarn
 yarn run --silent build
-yarn update
 #npm run build
 
 if [ "$(git status --porcelain | wc -l | xargs)" -eq 0 ]; then
