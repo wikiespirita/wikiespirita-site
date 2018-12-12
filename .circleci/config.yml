@@ -15,9 +15,9 @@ jobs:
     steps:
       - checkout
 
-      - add_ssh_keys:
-          fingerprints:
-            - "32:ce:f6:c9:dc:51:55:8b:8b:8b:e1:c1:43:75:f0:54"
+#      - add_ssh_keys:
+#          fingerprints:
+#            - "32:ce:f6:c9:dc:51:55:8b:8b:8b:e1:c1:43:75:f0:54"
 #            - "fc:f9:33:58:df:b0:90:d5:0c:0e:71:53:d0:26:de:0a"
 
       #### Node dependencies ####
@@ -44,7 +44,4 @@ jobs:
             if [ "${CIRCLE_BRANCH}" = "${DEPLOY_BRANCH}" ]; then
               chmod +x deploy.sh
               ./deploy.sh
-            else
-              echo "circle branch ${CIRCLE_BRANCH}"
-              echo "deploy branch ${DEPLOY_BRANCH}"
             fi
