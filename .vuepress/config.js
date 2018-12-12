@@ -20,7 +20,6 @@ module.exports = {
       description: description
     }
   },
-  theme: '@vuepress/theme-default',
   themeConfig: {
     editLinks: true,
     repo: 'wikiespirita/wikiespirita-site',
