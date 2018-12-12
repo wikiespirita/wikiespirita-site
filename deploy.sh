@@ -32,6 +32,7 @@ echo 'wikiespirita.com.br' > CNAME
 
 git config --global user.name "Circle CI"
 git config --global user.email "<>"
+git config --global push.default simple
 git init
 git add -A
 git commit -m "[$LAST_COMMIT_MESSAGE] Deploy by CI"
