@@ -8,21 +8,15 @@ DIST_FOLDER=site
 # Save the Commit Message
 LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
-apt-get update
-apt-get install git -y
-apt-get install git-core -y
-git --version
-apt-get upgrade git -y
-
 # Prepare the environment
-git worktree add site gh-pages
-git worktree add $DIST_FOLDER gh-pages
+#git worktree add site gh-pages
+#git worktree add $DIST_FOLDER gh-pages
 
 # Save the '.git' file
-mv ./$DIST_FOLDER/.git .git-$DIST_FOLDER
+#mv ./$DIST_FOLDER/.git .git-$DIST_FOLDER
 
 # Remove worktree folder
-rm -rf ./$DIST_FOLDER
+#rm -rf ./$DIST_FOLDER
 
 # Build Application
 #yarn run --silent build
