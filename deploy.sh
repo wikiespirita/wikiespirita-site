@@ -10,6 +10,8 @@ LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
 apt-get update
 apt-get install git -y
+apt-get install git-core -y
+git --version
 
 # Prepare the environment
 git worktree add site gh-pages
