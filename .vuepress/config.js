@@ -54,10 +54,12 @@ module.exports = {
     ['meta', { property: 'og:url', content: 'https://wikiespirita.com.br'}],
     ['meta', { property: 'og:title', content: 'WikiEspírita'}],
     ['meta', { property: 'og:description', content: 'Generalidade e Concordância no estudo do Espiritismo'}],
-    ['meta', { property: 'og:image', content: 'https://wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_80.png'}],
-    ['meta', { property: 'og:image:secure_url', content: 'https://wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_80.png'}],
+    ['meta', { property: 'og:image', content: 'https://wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_280.png'}],
+    ['meta', { property: 'og:image:secure_url', content: 'https://wikiespirita.com.br/imagens/logo/wiki_espirita_logo_globo_280.png'}],
     ['meta', { property: 'og:type', content: 'article'}],
     ['meta', { property: 'og:locale', content: 'pt_BR'}],
-    ['meta', { property: 'og:locale:alternative', content: 'en_US'}]
+    ['meta', { property: 'og:locale:alternative', content: 'en_US'}],
+    ['meta', { property: 'og:image:width', content: '280' }],
+    ['meta', { property: 'og:image:height', content: '280' }]
   ]
 }
