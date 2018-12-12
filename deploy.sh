@@ -38,7 +38,8 @@ git add -A
 git commit -m "[$LAST_COMMIT_MESSAGE] Deploy by CI"
 git checkout -b gh-pages
 
-git push --set-upstream -f $(git config --get remote.origin.url) gh-pages:gh-pages
+git push -f --set-upstream $(git config --get remote.origin.url):gh-pages gh-pages
+#git push -f --set-upstream $(git config --get remote.origin.url) gh-pages:gh-pages
 #git push -f $(git config --get remote.origin.url) gh-pages:gh-pages
 #git push -f $(git config --get remote.origin.url) master:master
 #git push -f git@github.com:wikiespirita/wikiespirita.github.io.git master
