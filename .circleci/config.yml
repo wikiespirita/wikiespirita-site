@@ -39,9 +39,12 @@ jobs:
       #### Node dependencies end ####
 
       - run:
-          name: Deploy development branch to master
+          name: Deploy master branch to gh-pages
           command: |
             if [ "${CIRCLE_BRANCH}" = "${DEPLOY_BRANCH}" ]; then
               chmod +x deploy.sh
               ./deploy.sh
+            else
+              echo "circle branch ${CIRCLE_BRANCH}"
+              echo "deploy branch ${DEPLOY_BRANCH}"
             fi
