@@ -62,6 +62,7 @@ module.exports = {
     ['meta', { property: 'og:locale', content: 'pt_BR'}],
     ['meta', { property: 'og:locale:alternative', content: 'en_US'}],
     ['meta', { property: 'og:image:width', content: '280' }],
-    ['meta', { property: 'og:image:height', content: '280' }]
+    ['meta', { property: 'og:image:height', content: '280' }],
+    ['link', { rel: 'manifest', href: 'https://wikiespirita.com.br/manifest.webmanifest'}]
   ]
 }
