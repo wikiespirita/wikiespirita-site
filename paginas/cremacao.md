@@ -1,25 +1,36 @@
 # Cremação na Visão Espírita
 
-## Cremação
+- Devemos ou não cremar?
 
-A cremação por sí só já é um tema demasiado extenso e antigo. Os gregos por volta de 1.000 A.C. praticavam a cremação de corpos. Os romanos, seguindo a mesma tradição, adotaram a prática por volta do ano de 750 A.C. Nessas civilizações, como a cremação era considerada um destino nobre aos mortos, o sepultamento por inumação ou sepultamento era reservado aos criminosos, assassinos, suicidas e aos fulminados por raios (considerada até então uma "maldição" de Júpiter). As crianças falecidas mesmo antes de nascerem os dentes também eram enterradas.
+- O Espírito sofre com a Cremação?
+
+- É certo ou errado cremar os restos mortais?
+
+- Como os espíritos superiores tratam o assunto?
+
+Essas e outras questões são abortadas pelos amigos espirituais em diversos livros e psicografiasas quais demontramos abaixo em ordem de publicação.
+
+Atens de iniciar as referências bibliográficas sobre o assunto um pouco de história para contextualizar:
+
+## Cremação na antiguidade
+
+A cremação por sí só já é um tema demasiado extenso e antigo. Os gregos por volta do ano 1.000 A.C. praticavam a cremação de corpos. Os romanos, seguindo a mesma tradição, adotaram a prática por volta do ano de 750 A.C. Nessas civilizações, como a cremação era considerada um destino nobre aos mortos, o sepultamento por inumação ou sepultamento era reservado aos criminosos, assassinos, suicidas e aos fulminados por raios (considerada até então uma "maldição" de Júpiter). As crianças falecidas mesmo antes de nascerem os dentes também eram enterradas.
+
 Fonte: [wikipedia.org/cremação](https://pt.wikipedia.org/wiki/Crema%C3%A7%C3%A3o)
 
-Trazendo a visão espírita sobre a cremação não temos a intenção de dar a palavra final sobre o assunto, mas sim, contribuir aos que estudam a doutrina na elaboração de suas ideias trazendo a luz do espiritismo em união com a nossa razão.
+## Visão Espírita
+
+Trazendo a visão espírita sobre a cremação não temos a intenção de dar a palavra final sobre o assunto, mas sim, contribuir aos que estudam a doutrina na elaboração de suas ideias trazendo esses e outros assuntos à luz do espiritismo em união com a nossa razão em busca de maior entendimento.
 
 Vamos iniciar nosso estudo sobre cremação trazendo as referências bibliográficas encontradas na literatura espírita, restringindo às obras básicas e complementares (Chico Xavier).
 
-# Referências bibliográficas
-
-As referências abaixo estão em ordem cronológica.
+## Referências bibliográficas
 
 ## Ano: 1857 |  Livro: O Livro dos Espíritos |  Autor: Allan Kardec
 
 Questão 164 - A perturbação que se segue à separação da alma e do corpo é do mesmo grau e da mesma duração para todos os Espíritos?
 
 *Não; depende da elevação de cada um. Aquele que já está purificado, se reconhece quase imediatamente, pois que se libertou da matéria antes que cessasse a vida do corpo, enquanto que o homem carnal, aquele cuja consciência ainda não está pura, guarda por muito mais tempo a impressão da matéria.*
-
----
 
 ## Ano: 1936 | Livro: Palavras do Infinito | Autor: Emmanuel (Chico Xavier)
 
@@ -55,15 +66,11 @@ A terceira pergunta sobre a “impressão do homem no momento da morte” foi re
 
 *(Recebida em Pedro Leopoldo a 21 de junho de 1935)*
 
----
-
 ## Ano: 1941 | Livro: O Consolador | Autor: Emmanuel (Chico Xavier)
 
 Questão 151 - O espírito desencarnado pode sofrer com a cremação dos elementos cadavéricos?
 
 *Na cremação, faz-se mister exercer a piedade com os cadáveres, procrastinando por mais horas o ato de destruição das vísceras materiais, pois, de certo modo, existem sempre muitos ecos de sensibilidade entre o Espírito desencarnado e o corpo onde se extinguiu o “tônus vital”, nas primeiras horas sequentes ao desenlace, em vista dos fluídos orgânicos que ainda solicitam a alma para as sensações da existência material.*
-
----
 
 ## Ano: 1971 | TV: Pinga Fogo | Autor: Chico Xavier
 
@@ -71,15 +78,11 @@ Almir Guimarães — O Sr. Eloy Fernandes rualguape, 6. A.: Opinião de Chico Xa
 
 *Chico Xavier — Já ouvimos Emmanuel a esse respeito e ele diz que a cremação é legítima para todos aqueles que a desejem, desde que haja um período de pelo menos 72 horas de expectação para a ocorrência em qualquer forno crematório, o que poderá se verificar com o depósito de despojos humanos em ambiente frio.*
 
----
-
 ## Ano: 1972 | TV: Pinga Fogo | Autor: Chico Xavier
 
 ALMIR - Muito bem. Dona Olga, Chico, pergunta: o plano espiritual admite a cremação de corpos?
 
 *CHICO XAVIER - Emmanuel, no livro "O Consolador", ele afirma que a cremação é um processo legítimo, de liberação do espírito desencarnado, apenas aconselhando que o tempo de expectativa deve ser mais longo nos climas tropicais e subtropicais, nada menos de 72 horas de câmara fria para o nosso veículo carnal, quando nos desvencilhamos dele, no caso de optarmos pela cremação.*
-
----
 
 ## Ano: 1972 (mensagem recebida em 1952) | Livro : Taça de Luz | Autor: Irmão X (Chico Xavier)
 
@@ -87,12 +90,9 @@ ALMIR - Muito bem. Dona Olga, Chico, pergunta: o plano espiritual admite a crema
 
 #### 18 - IRMÃO X SE MANIFESTA SOBRE O PROBLEMA DA CREMAÇÃO
 
-
 *Observada do plano espiritual a celeuma no Rio de Janeiro, em torno da incineração dos cadáveres, a ser estabelecida por lei, reparamos que o assunto não é realmente para rir.*
 
-
 *De um lado, temos os legisladores preocupados com a terra dos cemitérios, e, de outro, as autoridades eclesiásticas lançando a excomunhão sobre os responsáveis pelo movimento inovador. Entre os atores da peça, vemos os defuntos de amanhã, sorridentes e bem humorados, apreciando a pugna entre a igreja e a edilidade carioca.*
-
 
 *Aqueles, como nós, que já atravessaram a garganta da sombra, seguem a novidade, com a apreensão das pessoas mais velhas, à frente de um parque de crianças.*
 
@@ -131,8 +131,6 @@ ALMIR - Muito bem. Dona Olga, Chico, pergunta: o plano espiritual admite a crema
 *Local – Centro Espírita Luiz Gonzaga, na cidade de Pedro Leopoldo, Minas.*
 
 > Nota da redação O Projeto-Lei da Câmara dos Vereadores, que dispõe acerca da cremação nos cemitérios administrados pela Santa Casa de Misericórdia, foi vetado pelo sr. Prefeito do Distrito Federal, nove dias depois do Irmão X Transmitir a mensagem supra. O Sr. prefeito, entretanto, declarou que qualquer instituição ou seita religiosa poderá livremente instalar fornos crematórios.
-
----
 
 ## Ano: 1975 (publicação do livro – a mensagem pode ter sido recebida antes) | Livro: Caminhos de volta | Autor: Emmanuel (Chico Xavier)
 
