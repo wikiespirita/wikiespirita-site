@@ -2,6 +2,8 @@
     "name": "WikiEspirita",
     "short_name": "WikiEspirita",
     "start_url": ".",
+//    "background_color": "",
+    "lang": "pt-BR",
     "display": "standalone",
     "background_color": "#fff",
     "description": "Estudos Espiritas",
