@@ -2,18 +2,14 @@
     "name": "WikiEspirita",
     "short_name": "WikiEspirita",
     "start_url": ".",
-//    "background_color": "",
+    "background_color": "##E3F2F7",
     "lang": "pt-BR",
     "display": "standalone",
     "background_color": "#fff",
     "description": "Estudos Espiritas",
     "icons": [{
-      "src": "imagens/logo/apple-icon-57x57.png",
-      "sizes": "57x57",
-      "type": "image/png"
-    }, {
-      "src": "imagens/logo/apple-icon-72x72.png",
-      "sizes": "72x72",
+      "src": "imagens/logo/apple-icon-76x76.png",
+      "sizes": "76x76",
       "type": "image/png"
     }, {
       "src": "imagens/logo/apple-icon-114x114.png",
