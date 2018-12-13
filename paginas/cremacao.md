@@ -1,3 +1,8 @@
+---
+title: Cremação na Visão Espírita
+permalink: /cremacao-na-visao-espirita
+---
+
 # Cremação na Visão Espírita
 
 - Devemos ou não cremar?

@@ -790,6 +790,11 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-blog@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.0.tgz#41136410cf3d5ddfbd577e699a92daf18c04a180"
+  integrity sha512-s7fBHJShId5gGU/HKYvLgmhUcrgi88xkeGxCNOcz8QT7dXBl1KM/SvR4zlD06RNSzYDpWL5/4CykpJXDRpLGFg==
+
 "@vuepress/plugin-pwa@^1.0.0-alpha.0":
   version "1.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.0.0-alpha.0.tgz#6726f6ae2ec4e30f72f5583d42f6f9c79711180e"

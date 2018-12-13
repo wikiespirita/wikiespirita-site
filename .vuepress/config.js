@@ -5,6 +5,7 @@ module.exports = {
   dest: './site',
   title: title,
   description: description,
+  permalink: '/:slug',
   configureWebpack: {
     resolve: {
       alias: {
@@ -37,42 +38,8 @@ module.exports = {
     },
     displayAllHeaders: true,
     nav: [
-        { text: 'Home', link: '/' },
-        { text: 'Livros',
-          items: [
-            { text: 'Kardec', items: [
-              { text: 'O Livro dos Espíritos', link: '/livros/kardec/o_livro_dos_espiritos.pdf' },
-              { text: 'O Livro dos Médiuns', link: '/livros/kardec/o_livro_dos_mediuns.pdf' },
-              { text: 'Evangelho Segundo o Espiritismo', link: '/livros/kardec/evangelho_segundo_o_espiritismo.pdf' },
-              { text: 'O Céu e o Inferno', link: '/livros/kardec/o_ceu_e_o_inferno.pdf' },
-              { text: 'A Gênese', link: '/livros/kardec/a_genese.pdf' },
-              { text: 'Obras Póstumas', link: '/livros/kardec/obras_postumas.pdf' },
-              { text: 'O que é o Espiritismo', link: '/livros/kardec/o_que_e_o_espiritismo.pdf' }
-            ]},
-            { text: 'Chico', items: '/livros/chico/obras' }
-          ]
-        }
+        { text: 'Home', link: '/' }
     ],
-    sidebar: [
-        '/',
-        '/pages/sobre',
-        ['/pages/teste', 'Teste de Página'],
-        ['/pages/code', 'Códigos'],
-        {
-            title: 'Group 1',
-            collapsable: false,
-            children: [
-                '/'
-            ]
-        },
-        {
-            title: 'Group 2',
-            children: [
-                '/pages/sobre',
-                'pages/codigo'
-            ]
-        }
-    ]
   },
   plugins: [
     [
@@ -87,7 +54,15 @@ module.exports = {
       }
     ],
     ['@vuepress/back-to-top'],
-    ['@vuepress/pwa']
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        popupComponent: 'SWUpdatePopup',
+        updatePopup: true
+      }
+    ],
+    ['@vuepress/blog']
   ],
   head: [
     ['link', { rel: 'icon', href: '/imagens/logo/favicon-32x32.png' }],
