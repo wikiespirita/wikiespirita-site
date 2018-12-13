@@ -1,8 +1,8 @@
 ---
-navbar: false
+navbar: true
 home: true
 heroImage: /imagens/logo/wiki_espirita_logo_globo_780.png
-#actionText: Iniciar →
+actionText: Iniciar →
 actionLink: /paginas/sobre.md
 features:
 - title: "Temas complexos"
