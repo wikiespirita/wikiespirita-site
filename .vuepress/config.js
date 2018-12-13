@@ -48,7 +48,8 @@ module.exports = {
         }
       }
     ],
-    ['@vuepress/back-to-top']
+    ['@vuepress/back-to-top'],
+    ['@vuepress/pwa']
   ],
   head: [
     ['link', { rel: 'icon', href: '/imagens/logo/favicon-32x32.png' }],
