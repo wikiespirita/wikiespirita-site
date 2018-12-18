@@ -67,7 +67,13 @@ module.exports = {
         updatePopup: true
       }
     ],
-    ['@vuepress/blog']
+    ['@vuepress/blog'],
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-70021489-1'
+      }
+    ]
   ],
   head: [
     ['link', { rel: 'icon', href: '/imagens/logo/favicon-32x32.png' }],
