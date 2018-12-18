@@ -32,13 +32,18 @@ module.exports = {
       '/': {
         label: 'Português',
         selectText: 'Português',
-        editLinkText: 'Editar',
+        editLinkText: 'Editar no GitHub',
         lastUpdated: 'Atualizado em'
       }
     },
     displayAllHeaders: true,
     nav: [
-        { text: 'Home', link: '/' }
+        { text: 'Home', link: '/' },
+        { text: 'Temas',
+          items: [
+            { text: 'Cremação', link: '/cremacao-na-visao-espirita/'}
+          ]
+        },
     ],
   },
   plugins: [
