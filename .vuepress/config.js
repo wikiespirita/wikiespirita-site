@@ -41,7 +41,7 @@ module.exports = {
         { text: 'Home', link: '/' },
         { text: 'Temas',
           items: [
-            { text: 'Cremação', link: '/cremacao-na-visao-espirita/'}
+            { text: 'Cremação', link: '/paginas/cremacao'}
           ]
         },
     ],
