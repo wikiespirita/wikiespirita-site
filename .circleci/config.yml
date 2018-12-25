@@ -1,0 +1,49 @@
+version: 2
+
+jobs:
+  build:
+    branches:
+      only:
+        - master
+    working_directory: ~/wikiespirita
+    docker:
+      - image: node:9.11
+        environment:
+          TZ: "/usr/share/zoneinfo/America/Sao_Paulo"
+          LANG: pt_BR.UTF-8
+          LC_ALL: C.UTF-8
+          LANGUAGE: pt_BR.UTF-8
+          DEPLOY_BRANCH: master
+
+    steps:
+      - checkout
+
+      - add_ssh_keys:
+          fingerprints:
+            - "4b:eb:a0:80:e2:1a:19:d6:97:b0:88:dd:53:16:ce:35"
+
+      #### Node dependencies ####
+      - restore_cache:
+          keys:
+            - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-{{ .Branch }}
+            - yarn-packages-master
+            - yarn-packages-
+
+      - run:
+          name: Install Node dependencies
+          command: yarn install
+
+      - save_cache:
+          paths:
+            - node_moduels
+          key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      #### Node dependencies end ####
+
+      - run:
+          name: Deploy master branch to gh-pages
+          command: |
+            if [ "${CIRCLE_BRANCH}" = "${DEPLOY_BRANCH}" ]; then
+              chmod +x deploy.sh
+              ./deploy.sh
+            fi
