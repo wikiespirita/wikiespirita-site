@@ -5,7 +5,7 @@ heroImage: /imagens/logo/wiki_espirita_logo_globo_780.png
 actionText: Iniciar →
 actionLink: /paginas/sobre.md
 features:
-- title: "Temas complexos"
+- title: "Temas atuais"
   details: "Estudos embasados nas obras básicas e complementares da Doutrina Espírita sobre temas atuais e complexos, como sexualidade, cremação e política."
 - title: "Contribuição"
   details: "Uma das formas de contribuir é enviar comentários e sugestões, as quais serão analisadas por nossa equipe editorial responsável."
